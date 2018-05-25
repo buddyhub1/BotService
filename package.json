@@ -1,0 +1,24 @@
+{
+    "name": "reminder_bot",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js",
+        "flow": "flow"
+    },
+    "dependencies": {
+        "body-parser": "*",
+        "cors": "*",
+        "express": "*",
+        "http": "*",
+        "https": "*",
+        "jade": "*",
+        "mongoose": "^5.0.2",
+        "path": "*",
+        "request": "*"
+
+    },
+    "devDependencies": {
+        "flow-bin": "^0.61.0"
+    }
+}
